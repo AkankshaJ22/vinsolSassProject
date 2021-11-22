@@ -1,0 +1,229 @@
+@import "vinsol_variables";
+
+@font-face {
+    font-family: $fontfamilymyrid;
+    src: url("../fonts/Myriad Pro Regular.ttf");
+}
+
+@font-face {
+    font-family: $fontfamilydinregular;
+    src: url("../fonts/DIN Regular.ttf");
+}
+
+@font-face {
+    font-family: $fontfamilydinrebold;
+    src: url("../fonts/DIN Bold.ttf");
+}
+
+body {
+    font-family: $fontfamilydinregular;
+    color: $blackcolor;
+}
+
+.font-myridPro {
+    font-family: $fontfamilymyrid;
+}
+
+.dia-text {
+    font-size: 2em;
+    line-height: 40px;
+}
+
+.navbar-vinsol {
+    padding: 20px 0 15px;
+    margin-bottom: 1.25em;
+    .navbar-nav {
+        .nav-link {
+            padding: 0.5em 1em;
+        }
+        .nav-link.active {
+            color: $orangecolor;
+        }
+    }
+}
+
+.test-skyblue {
+    color: $skybluecolor;
+}
+
+.text-orange {
+    color: $orangecolor;
+}
+
+.filter_img_box {
+    height: 170px;
+    overflow: hidden;
+    background: $graybgcolor;
+    border: solid 1px #d3d3d3;
+    /* padding: 1em 1.25em 0px; */
+}
+
+.filter_img_box img {
+    width: auto;
+    height: auto;
+}
+
+.padding-left-right-5 {
+    padding: {
+        left: $pl5;
+        right: $pr5;
+    }
+}
+
+.padding-reset-10 {
+    padding: {
+        left: $pl10;
+        right: $pr10;
+    }
+}
+
+.sepration-imgHeading {
+    margin-bottom: 0.75em;
+}
+
+.mb-50 {
+    margin-bottom: $mb50;
+}
+
+.mt-20 {
+    margin-top: $mt20;
+}
+
+.mb-20 {
+    margin-bottom: $mb20;
+}
+
+.footer-style {
+    background: $graybgcolor;
+    padding: 38px 0 20px;
+    margin-top: 75px;
+    box-shadow: inset 0 4px 3px #d6d6d6;
+}
+
+.font-12 {
+    font-size: 0.75em;
+}
+
+.font-24 {
+    font-size: $fontsize24;
+}
+
+.font-18 {
+    font-size: $fontsize18;
+}
+
+.footer-heading-color {
+    color: $darkgraycolor;
+}
+
+.border-bottom-footerImage {
+    border-bottom: solid 1px #acacac;
+}
+
+.font-14 {
+    font-size: $fontsize14;
+    line-height: 23px;
+}
+
+.footer-getinTouch {
+    background: linear-gradient(rgb(255, 161, 3), rgb(249, 152, 9), rgb(240, 139, 18));
+    text-align: center;
+    padding: 28px 10px 15px;
+    margin-top: -48px;
+    box-shadow: 0 0 5px #808080;
+}
+
+.footer-getinTouch-heading {
+    padding-bottom: 12px;
+    span {
+        border-bottom: solid 1px $footerborderorangecolor;
+        padding-bottom: 7px;
+    }
+}
+
+.talk-schedule-btn {
+    margin: 18px auto;
+    box-shadow: 0 2px 3px #8c8c8c;
+    color: $orangecolor;
+}
+
+.sep-getinTouch {
+    border-bottom: solid 1px $footerborderorangecolor;
+    width: 175px;
+}
+
+.filter-text {
+    font-size: 0.85em;
+}
+
+@media (min-width: 1200px) {
+    .mx-w-970 {
+        max-width: 970px;
+    }
+    .container {
+        @extend .mx-w-970;
+    }
+    .container-lg {
+        @extend .mx-w-970;
+    }
+    .container-md {
+        @extend .mx-w-970;
+    }
+    .container-sm {
+        @extend .mx-w-970;
+    }
+    .container-xl {
+        @extend .mx-w-970;
+    }
+}
+
+@media (max-width: 575px) {
+    .navbar-vinsol {
+        padding: 8px 0 16px;
+        margin-bottom: 1.25em;
+        border-bottom: solid 1px rgb(225, 255, 225);
+        .navbar-brand {
+            width: 56px;
+            overflow: hidden;
+        }
+    }
+    .filker-box {
+        order: 3;
+    }
+    .twiter-box {
+        order: 2;
+        margin-bottom: 35px;
+    }
+    .getinTuch-box {
+        order: 1;
+        margin-bottom: 50px;
+    }
+
+    .footer-style {
+        background: $blackcolor;
+        box-shadow: none;
+        color: $whitecolor;
+        margin-top: 0px;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: none;
+    }
+
+    .dia-text {
+        font-size: 1.25em;
+        line-height: 30px;
+    }
+
+    .footer-link .nav-item .nav-link {
+        padding: 0.1rem 0rem;
+        font-size: 12px;
+    }
+
+    .filter_img_box {
+        height: auto;
+        img {
+            width: 100%;
+        }
+    }
+}
