@@ -1,4 +1,5 @@
-@import "vinsol_variables";
+@import "_vinsol_variables";
+@import "_mixin_classes";
 
 @font-face {
     font-family: $fontfamilymyrid;
@@ -156,13 +157,6 @@ body {
     font-size: 0.85em;
 }
 
-@mixin textCenter {
-    text-align: center;
-}
-@mixin colorChangeOrange {
-    color: $orangecolor;
-    transition: all 0.2s linear;
-}
 .test-skyblue
 {
     &:hover {

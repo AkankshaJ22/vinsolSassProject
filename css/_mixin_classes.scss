@@ -1,0 +1,7 @@
+@mixin textCenter {
+    text-align: center;
+}
+@mixin colorChangeOrange {
+    color: $orangecolor;
+    transition: all 0.2s linear;
+}
