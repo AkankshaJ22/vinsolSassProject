@@ -156,6 +156,20 @@ body {
     font-size: 0.85em;
 }
 
+@mixin textCenter {
+    text-align: center;
+}
+@mixin colorChangeOrange {
+    color: $orangecolor;
+    transition: all 0.2s linear;
+}
+.test-skyblue
+{
+    &:hover {
+        @include colorChangeOrange;
+    }
+}
+
 @media (min-width: 1200px) {
     .mx-w-970 {
         max-width: 970px;
@@ -179,13 +193,16 @@ body {
 
 @media (max-width: 575px) {
     .navbar-vinsol {
-        padding: 8px 0 16px;
+        padding: 12px 0 16px;
         margin-bottom: 1.25em;
         border-bottom: solid 1px rgb(225, 255, 225);
         .navbar-brand {
             width: 56px;
             overflow: hidden;
         }
+    }
+    .dia-text, .filter_img_box + h5, .filter_img_box ~ p{
+        @include textCenter;
     }
     .filker-box {
         order: 3;
