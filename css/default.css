@@ -5,12 +5,12 @@
 
 @font-face {
   font-family: DIN Regular;
-  src: url("../fonts/DIN Regular.ttf");
+  src: url("../fonts/DIN/DIN Regular.ttf");
 }
 
 @font-face {
   font-family: DIN bold;
-  src: url("../fonts/DIN Bold.ttf");
+  src: url("../fonts/DIN/DIN Bold.ttf");
 }
 
 body {

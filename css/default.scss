@@ -1,20 +1,6 @@
 @import "_vinsol_variables";
 @import "_mixin_classes";
-
-@font-face {
-    font-family: $fontfamilymyrid;
-    src: url("../fonts/Myriad Pro Regular.ttf");
-}
-
-@font-face {
-    font-family: $fontfamilydinregular;
-    src: url("../fonts/DIN Regular.ttf");
-}
-
-@font-face {
-    font-family: $fontfamilydinrebold;
-    src: url("../fonts/DIN Bold.ttf");
-}
+@import "_fonts_vinsol.scss";
 
 body {
     font-family: $fontfamilydinregular;

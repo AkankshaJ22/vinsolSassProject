@@ -1,0 +1,17 @@
+
+$DIN-font-path: "../fonts/DIN";
+
+@font-face {
+    font-family: $fontfamilymyrid;
+    src: url("../fonts/Myriad Pro Regular.ttf");
+}
+
+@font-face {
+    font-family: $fontfamilydinregular;
+    src: url("#{$DIN-font-path}/DIN Regular.ttf");
+}
+
+@font-face {
+    font-family: $fontfamilydinrebold;
+    src: url("#{$DIN-font-path}/DIN Bold.ttf");
+}
