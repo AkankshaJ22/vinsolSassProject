@@ -1,9 +1,10 @@
 
 $DIN-font-path: "../fonts/DIN";
+$Myrid-font-path:"../fonts/myrid";
 
 @font-face {
     font-family: $fontfamilymyrid;
-    src: url("../fonts/Myriad Pro Regular.ttf");
+    src: url("#{$Myrid-font-path}/Myriad Pro Regular.ttf");
 }
 
 @font-face {
