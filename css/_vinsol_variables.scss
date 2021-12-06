@@ -1,5 +1,5 @@
 // Author - Akanksha jain(20/11/2021)
-//  Define standard variables, values, and colors
+//  Define standard variables, values, colors, and breakpoints
 
 // colors variables
 $blackcolor: #000000;
@@ -9,9 +9,13 @@ $skybluecolor: #17aacf;
 $darkgraycolor: #3d3d33;
 $footerborderorangecolor: rgb(255, 204, 121);
 $graybgcolor: #e8e8e8;
+
+// Fontsize variable
 $fontsize18: 18px;
 $fontsize24: 24px;
 $fontsize14: 14px;
+
+// Sizes variable
 $pl5: 5px;
 $pr5: 5px;
 $pl10: 10px;
@@ -19,8 +23,13 @@ $pr10: 10px;
 $mt20: 20px;
 $mb20: 20px;
 $mb50: 50px;
+
+// fonts variable
 $fontfamilymyrid: Myrid pro regular;
 $fontfamilydinregular: DIN Regular;
 $fontfamilydinrebold: DIN bold;
 
-// Sizes variable
+// Breakpoints variable
+$layout-breakpoint-small: 575px;
+$layout-breakpoint-large: 1200px;
+

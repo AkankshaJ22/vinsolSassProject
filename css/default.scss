@@ -150,7 +150,7 @@ body {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: $layout-breakpoint-large) {
     .mx-w-970 {
         max-width: 970px;
     }
@@ -171,7 +171,7 @@ body {
     }
 }
 
-@media (max-width: 575px) {
+@media (max-width: $layout-breakpoint-small) {
     .navbar-vinsol {
         padding: 12px 0 16px;
         margin-bottom: 1.25em;
