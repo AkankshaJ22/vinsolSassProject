@@ -1,6 +1,7 @@
-@import "_vinsol_variables";
-@import "_mixin_classes";
-@import "_fonts_vinsol.scss";
+// @import "_vinsol_variables";
+// @import "_mixin_classes";
+// @import "_fonts_vinsol.scss";
+@import 'vinsol_variables', 'mixin_classes', 'fonts_vinsol';
 
 body {
     font-family: $fontfamilydinregular;
